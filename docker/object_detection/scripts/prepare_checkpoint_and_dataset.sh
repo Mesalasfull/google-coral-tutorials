@@ -74,6 +74,7 @@ sed -i "s%DATASET_DIR_TO_CONFIGURE%${DATASET_DIR}%g" "${CKPT_DIR}/pipeline.confi
 echo "Downloading prepared dataset"
 mkdir -p "${DATASET_DIR}"
 cd "${DATASET_DIR}"
-gdown https://drive.google.com/uc?id=1fQoZpa3xv1wEaPjcpjmMfRrQ9i0cDVtX
+gdown https://drive.google.com/uc?id=1DBs46te-FwfZuYNj8Bz9dKDWhtD2dasW
+gdown https://drive.google.com/uc?id=1hGRGjcHL2JunAMNlJxNXg-uxvzNThQGC
 unzip traffic_train.zip
 unzip traffic_val.zip
