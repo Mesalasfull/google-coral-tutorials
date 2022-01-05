@@ -75,4 +75,5 @@ echo "Downloading prepared dataset"
 mkdir -p "${DATASET_DIR}"
 cd "${DATASET_DIR}"
 gdown https://drive.google.com/uc?id=1fQoZpa3xv1wEaPjcpjmMfRrQ9i0cDVtX
-unzip traffic_tfrecord.zip
+unzip traffic_train_tfrecord.zip
+unzip traffic_val_tfrecord.zip
